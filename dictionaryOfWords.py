@@ -6,14 +6,14 @@ animal["breed"] = "Bulldog"
 animal["age"] = 5
 
 # Create the dictionary with key/value pairs and assign to variable
-animal = {
-    "name": "Kevin",
-    "breed": "Bulldog",
-    "age": 5
-}
+# animal = {
+#     "name": "Kevin",
+#     "breed": "Bulldog",
+#     "age": 5
+# }
 
-for (key, value) in animal.items():
-    print(f"{key}: {value}")
+# for (key, value) in animal.items():
+#     print(f"{key}: {value}")
 
 # Output
 # name: Kevin
@@ -32,24 +32,29 @@ for (key, value) in animal.items():
 Create a dictionary with key value pairs to
 represent words (key) and its definition (value)
 """
-word_definitions = dict()
-word_definitions = {}
+# word_definitions = dict()
+# word_definitions = {}
 
 """
 Add several more words and their definitions
    Example: word_definitions["Awesome"] = "The feeling of students when they are learning Python"
 """
-
 word_definitions = {
-    ["stop"]: "To cease movement",
-    ["go"]: "To proceed"
+"stop":  "To cease movement",
+"go": "To start movement",
+"confused": "Unable to think clearly",
+"laughter": "the action or sound of laughing",
+"joyful": "feeling,expressing,or causing great pleasure and happiness",
 }
 print(word_definitions)
+
 
 """
 Use square bracket lookup to get the definition of two
 words and output them to the console with `print()`
 """
+print(word_definitions["stop"])
+print(word_definitions["joyful"])
 
 
 """
